@@ -1,0 +1,153 @@
+
+/* CSS Document */
+
+
+
+#destaques_box {
+    width: 626px;
+    height: 300px;
+    display: inline;
+    margin: 0 0 0 0;
+}
+
+#destaques_box_content {
+    width: 626px;
+    height: 300px;
+    color: #333;
+    font-size: 11px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+#destaques_box_prev_button {
+    position: absolute;
+    left: 10px;
+    top: 275px;
+    z-index: 15;
+    display: inline;
+    float: left;
+}
+
+.destaques_box_prev_button_on {
+    background-image: url('../img/seta-slide-esquerda.png');
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+#destaques_box_next_button {
+    position: absolute;
+    left: 29px;
+    top: 275px;
+    z-index: 15;
+}
+
+.destaques_box_next_button_on {
+    background-image: url('../img/seta-slide-direita.png');
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+#destaques_playpause_button {
+    position: absolute;
+    left: 250px;
+    top: 7px;
+    z-index: 5;
+    display: inline;
+    float: left;
+}
+.destaques_play_button {
+    background: url(/_css/imagem/destaques/play.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.destaques_pause_button {
+    background: url(/_css/imagem/destaques/pause.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#destaques_box_viewport {
+    width: 626px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+#destaques_box_strip {
+    position: absolute;
+    width: 3000px;
+    left: 0px;
+    top: 0px;
+}
+
+.destaques_box_item {
+    position: relative;
+    float: left;
+    width: 626px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.destaques_box_item .destaques_box_thumb {
+    width: 626px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.destaques_box_item .destaques_box_title {
+    width: 626px;
+    height: 25px;
+    font: normal normal 16px Arial;
+    color: #FFF;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    display: inline;
+    float: left;
+    overflow: hidden;
+    z-index: 20;
+    top: 268px;
+    left: 60px;
+}
+.destaques_box_item .destaques_box_title A {
+    color: #FFF;
+    text-decoration: none;
+    display: inline;
+    float: left;
+}
+.destaques_box_item .destaques_box_text {
+    width: 615px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    top: 267px;
+    left: 0;
+    background: #333;
+    filter:alpha(opacity=70);
+    -moz-opacity:.70;
+    opacity:.70;
+}
+.destaques_box_item .publi {
+    margin: 0 0 0 60px;
+    padding: 0;
+    position: absolute;
+    display: inline;
+    float: left;
+}
+.destaques_box_desc {
+    margin: 0;
+    color: #FFF;
+}

@@ -1,0 +1,324 @@
+a{
+
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#artigo-texto p{
+    line-height: 150%;
+    padding: 5px;
+}
+
+#conteudo p{
+    font-family: arial;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#conteudo p{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 6px 0;
+    line-height: 150%;
+}
+
+#conteudo h1{
+    font-family: arial;
+    font-size: 28px;
+    padding: 2px;
+}
+
+#conteudo h3{
+    font-family: arial;
+    font-size: 24px;
+    padding: 2px; 
+}
+
+#conteudo h4{
+    font-family: arial;
+    font-size: 17px;
+    padding: 2px;
+}
+
+#conteudo h1{
+    font-family: arial;
+    font-size: 28px;
+    padding: 2px;
+}
+
+#menu-superior li a{
+    font-family: 'Mountains of Christmas', arial, serif;
+    font-size: 24px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu-inferior-header li a{
+    font-family: arial;
+    font-size: 11px;
+    text-decoration: none;
+    color: #646567;
+    padding: 0px;
+}
+
+
+#menu-inferior-header-2 li, #menu-inferior-header-2 li a{
+    font-family: arial;
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#menu-inferior-header-2 li a{
+    padding-left: 3px;
+}
+
+#menu-inferior-header li a:hover, #menu-inferior-header-2 li a:hover{
+    text-decoration: underline;
+}
+
+#menu-superior-header li, #menu-inferior-header li{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+
+#menu-superior-header li a{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+    padding: 5px;
+    color: #fff;
+
+}
+
+#menu-superior-header li a:hover{
+    text-decoration: underline;
+}
+
+.central-assinante-link{
+    color:#004d77;
+}
+
+.assine-link{
+    color: #a2de00;
+}
+
+/* Home - Ultimas Matérias por seção*/
+
+#noticias-por-secao li a{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #6f7a52;
+    font-weight: bold;
+}
+
+#noticias-por-secao li p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+
+/*newsletter*/
+
+#caixa-news h2 {
+    font-family: 'Mountains of Christmas', serif;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 0.090em;
+    color: #d67e68;
+    margin: 25px 0 8px 28px;
+}
+
+#caixa-news p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 10px 0 0 28px;
+    width: 190px;
+    line-height: 130%;
+}
+
+/* FOOTER */
+#copy{
+    margin-left: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #666;
+    margin-top: -5px;
+}
+
+#rodape-conteudo{
+    margin-right: 32px;
+}
+
+#rodape-conteudo li{
+    padding: 0 2px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #666;
+}
+
+#rodape-conteudo a{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: #666;
+}
+#rodape-conteudo a:hover{
+    text-decoration: underline;
+}
+
+/*Home - ultimas matérias*/
+
+#ultimas-materias li h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size:10px;
+    font-weight:bold;
+    padding-bottom: 3px;
+}
+
+#ultimas-materias li a{
+    margin-top: 7px;
+    color: #aca77f;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* LAND PAGING */
+#landing-page span{
+    font-family: arial;
+    font-size: 12px;
+}
+
+
+/* MATERIA */
+#materia-texto li{
+    list-style: disc inside;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding: 10px 0;
+    margin-left: 9px;
+    line-height: 150%;
+}
+
+
+#materia-texto h1{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 23px;
+    padding: 5px 0;
+    margin-bottom: 2px;
+}
+
+#materia-texto h4{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-bottom: 2px;
+}
+
+#olho-texto{
+    display: block;
+    width: 200px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    line-height: 120%;
+    color:#97bf0d;
+    float: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#olho-imagem{
+    display: block;
+    float: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.legenda-foto{
+    font-size: 9px;
+    color: #999;
+}
+
+.autor-data {
+    font-size: 12px;
+    color: #666;
+}
+
+#caixa-cinza label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+#caixa-cinza h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #001c35;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+#caixa-cinza p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+#coluna-um textarea, textarea{
+    font-family: arial;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #a5d8f2;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+/* Landing Page */
+
+#materia-landingpage h3{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#conteudo span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    padding: 4px;
+    margin-left: -4px;
+}
+
+#colunas-formulario label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-right: 5px;
+}

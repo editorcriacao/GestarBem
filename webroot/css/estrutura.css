@@ -1,0 +1,694 @@
+body{
+    background-color: #badceb;
+}
+
+body > #todo {height: auto; min-height: 100%;}
+
+html, body, #todo {height: 100%;}
+
+/* HEADER */
+#header{
+    background-image: url(../img/bg-header.png);
+    width: 100%;
+    height: 123px;
+    border-bottom: 1px solid #fcfef3;
+}
+
+#caixa-header{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 950px;
+}
+
+
+#caixa-header img{
+    padding-top: 12px;
+}
+
+.linha-verde{
+    background-color: #e8f0c6;
+    height: 10px;
+    width: 100%;
+}
+
+#menu-superior{
+    background-color: #c1d866;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 3px solid #d0e18b;
+}
+
+#menu-superior li{
+    display: inline;
+}
+
+#menu-superior-header li,
+#login li,
+#menu-inferior-header li,
+#menu-inferior-header-2 li,
+#menu-superior-header li, #icon li{
+    float: left;
+    display: inline;
+    margin-bottom: 2px;
+}
+
+#icon li{
+    padding: 2px;
+}
+
+#menu-inferior-header{
+    margin-left: 27px;
+    *margin-left: 25px;
+}
+
+#menu-inferior-header-2{
+    margin-left: 533px;
+}
+
+#menu-superior-header{
+    margin-top: 27px;
+    margin-left:682px;
+    *margin-bottom: 3px;
+}
+
+#menu-inferior-header li{
+    margin-top: 5px;
+}
+
+#login{
+    height: 30px;
+    margin-left: 664px;
+    *margin-left:657px;
+    *position: absolute;
+    *margin-top: 20px;
+
+}
+
+#login li input[type=text], #login li input[type=password]{
+    border: 1px solid #a5d8f2;;
+    width: 115px;
+    padding: 2px 0 2px 4px;
+    color: #87a7b6;
+    margin-right: 2px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#login li input[type=password] {
+
+        width: 95px;
+}
+
+#login li input[type=submit]{
+    background-image: url(../img/bg-fundo-buttom.png);
+    border: 0;
+    color:#3e8bb3;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 10px;
+    *margin-top: 1px;
+    *padding-left: 1px;
+    *padding-right: 1px;
+
+    height: 22px;
+    cursor: pointer;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#login li input[type=submit]:hover{
+    background-image: url(../img/bg-fundo-buttom-hover.png);
+}
+
+#busca-div li input[type=text]{
+    border: 1px solid #a5d8f2;
+    padding: 2px 0 2px 4px;
+    width: 190px;
+    color: #87a7b6;
+    margin-right: 3px;
+    margin-left: 112px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#busca-div li input[type=submit]{
+    border: 0;
+    display: block;
+    width: 32px;
+    background-image: url(../img/busca-buttom.png);
+    cursor: pointer;
+    *margin-top: 1px;
+
+    height: 22px;
+    cursor: pointer;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#busca-div li input[type=submit]:hover{
+    background-image: url(../img/busca-buttom-hover.png);
+}
+
+#busca-div{
+    margin-top: -70px;
+    margin-left: 600px;
+}
+
+#busca-div li{
+    display: inline;
+    float: left;
+}
+
+/* FIM HEADER */
+
+
+/* CONTENT */
+
+#banner{
+    padding: 20px;
+}
+
+#content{
+    margin: 0 auto;
+    background-image: url(../img/bg-fundo.png);
+    width: 980px;
+    height: auto;
+}
+
+#conteudo{
+    margin-top: -72px;
+    margin-left: 160px;
+    width: 677px;
+    min-height: 700px;
+    height: 100%;
+}
+
+#encaixe-bg{
+    margin: 0 auto;
+    background-image: url(../img/bg-img-encaixe.png);
+    width: 980px;
+    height: 58px;
+}
+
+#conteudo-verde{
+    margin: 0 auto;
+    background-image: url(../img/bg-fundo-verde.png);
+    height: auto;
+    min-height: 200px;
+    width: 980px;
+    clear: both;
+}
+
+#footer-verde-bg{
+    margin: 0 auto;
+    background-image: url(../img/footer-bg-verde.png);
+    height: 42px;
+    width: 980px;
+}
+
+
+/* MENU BOLINHAS*/
+#menu-bolas{
+    position: relative;
+}
+
+#menu-bolas span#educacao{
+    background-image: url(../img/reta-azul-regua.png);
+    height: 18px;
+    width: 57px;
+    margin-left: 10px;
+    position: relative;
+    top: 70px;
+    display: block;
+}
+
+#menu-bolas span#nutricao{
+    background-image: url(../img/reta-azul-regua.png);
+    height: 18px;
+    width: 57px;
+    margin-left: 10px;
+    position: relative;
+    top: 135px;
+    display: block;
+}
+
+#menu-bolas span#vestuario{
+    background-image: url(../img/reta-azul-regua.png);
+    height: 18px;
+    width: 57px;
+    margin-left: 10px;
+    position: relative;
+    top: 205px;
+    display: block;
+}
+
+#menu-bolas span#especial{
+    background-image: url(../img/reta-azul-regua.png);
+    height: 18px;
+    width: 57px;
+    margin-left: 10px;
+    position: relative;
+    top: 270px;
+    display: block;
+}
+
+#educacao-img{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 10;
+    cursor: pointer;
+}
+#nutricao-img{
+    position: absolute;
+    left: 50px;
+    top: 135px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#vestuario-img{
+    position: absolute;
+    left: 50px;
+    top: 223px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#especial-img{
+    position: absolute;
+    left: 50px;
+    top: 303px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.faixa-menu{
+    text-align: right;
+    height: 15px;
+    padding: 5px 15px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;   
+    z-index: 10;
+
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#educacao-faixa{
+    width: 0px;
+    background-color: #63add5;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    display: none;
+}
+
+#nutricao-faixa{
+    width: 0px;
+    background-color: #81ba4e;
+    position: absolute;
+    left: 110px;
+    top: 195px;
+    display: none;
+}
+
+#vestuario-faixa{
+    width: 0px;
+    background-color: #a970a5;
+    position: absolute;
+    left: 110px;
+    top: 285px;
+    display: none;
+}
+
+#especial-faixa{
+    width: 0px;
+    background-color: #cb5f5f;
+    position: absolute;
+    left: 110px;
+    top: 365px;
+    display: none;
+}
+
+
+/* ALERT */
+#cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    z-index: 60;
+    background-color: #000;
+    opacity: .6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60)
+        -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+}
+
+.box-msg{
+    margin-left: 260px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+    z-index: 100;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#alertBAD span{
+    background-color: #ccc;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+    float: right;
+    margin-top: -17px;
+    margin-right: -5px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+
+}
+
+#alertBAD span:hover{
+    background-color: #cf3c1c;
+}
+
+#alertBAD{
+    padding: 30px 15px;
+    font-family: arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 120%;
+    text-align: center;
+}
+
+
+/* ULTIMAS MATERIAS */
+#noticias-por-secao{
+    width: 650px;
+    display: block;
+    margin-left: 20px;
+    float: right;
+    padding-bottom: 30px;
+}
+
+#noticias-por-secao li {
+    list-style: none;
+    display: inline;
+    float: left;
+    width: 290px;
+    padding-right: 13px;
+
+}
+
+#noticias-por-secao li img{
+    border:3px solid #b6c382;
+    width: 120px;
+    height: 68px;
+    float: left;
+    margin-right: 8px;
+}
+
+#espaco-div{
+    height: 10px;
+    display: block;
+    clear: both;
+}
+
+
+/* FOOTER */
+#footer{
+    margin: 0 auto;
+    background-image: url(../img/bg-fundo-rodape.png);
+    height: 55px;
+    width: 980px;
+}
+
+#cima-footer{
+    background-image: url(../img/cima-bg-fundo-rodape.png);
+    width: 980px;
+    height: 25px;
+}
+
+#footer #copy{
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+#footer ul li{
+    display: inline;
+    float: left;
+}
+
+#rodape-conteudo{
+    float: right;
+}
+
+#rodape-conteudo li{
+    display: inline;
+    padding-right: 0px;
+}
+
+
+/* HOME */
+#destaques-home{
+    width: 615px;
+    margin-left: 72px;
+}
+
+/*Home - ultimas matÃ©rias*/
+
+#ultimas-materias{
+    margin-left: 70px;
+    width: 640px;
+}
+
+#ultimas-materias li{
+    list-style: none;
+    display:inline;
+    float: left;
+    padding-right: 11px;
+    margin-bottom: 10px;
+    width: 196px
+}
+
+#ultimas-materias li img{
+    border:3px solid #e1ddbd;
+    width: 197px;
+    height: 110px;
+}
+
+#materia-landingpage {
+    width: 620px;
+    margin:25px 0;
+    height: 120px;
+    *margin: 35px 0 -15px 0;
+}
+
+#imagem-lp {
+    background-image: url(../img/img-lp.png);
+    width: 197px;
+    height: 110px;
+    border: 3px solid #e1ddbd;
+    float: left;
+    margin-right: 15px;
+}
+
+#landing-page{
+    margin-left: 60px;
+}
+
+.linha-divisao-2 {
+    border-bottom: 1px solid #ccc;
+    width: 626px;
+    float: left;
+    padding: 2px;
+    margin-top: -3px;
+    margin-bottom: 22px;
+    *margin-top: -20px;
+}
+
+/* MATERIA */
+#materia-texto{
+    margin-left: 60px;
+}
+
+input[type=submit]{
+    background-image: url(../img/bg-fundo-buttom.png);
+    border: 0;
+    color:#3e8bb3;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 10px;
+    *margin-top: 5px;
+
+    height: 18px;
+    cursor: pointer;
+
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+input[type=submit]:hover{
+    background-image: url(../img/bg-fundo-buttom-hover.png);
+}
+
+input[type=text], input[type=password]{
+    border: 1px solid #a5d8f2;
+    padding: 3px;
+    color: #87a7b6;
+    margin-right: 2px;
+
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+
+}
+
+/*news*/
+
+#caixa-news {
+    background-image: url(../img/newsletter.png);
+    width: 239px;
+    height: 193px;
+    float: left;
+    margin-left: 50px;
+    display: inline;
+    margin-top: -5px;
+}
+
+#enviar-news li input{
+    border: 1px solid #acbe74;
+    padding: 2px;
+    color: #888;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 18px;
+    *height: 17px;    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    
+}
+
+
+#caixa-news li input[type=submit]{
+    background-image: url(../img/buttom-new.png);
+    border: 0;
+    float: right;
+    padding: 2px 5px;
+    font-size: 10px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 28px;
+
+
+    *padding: 1px -8px;;
+    *margin-top:-22px;
+    *width:65px;
+    *height:21px;
+    color: #6e4b4b;
+    cursor: pointer;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#caixa-news li input[type=submit]:hover {
+    background-image: url(../img/buttom-new-h.png);
+}
+
+
+
+#revista-digital{
+    margin-left: 60px;
+}
+
+
+/* CONTE SUA HISTORIA */
+#colunas-formulario input[type=text], #colunas-formulario input[type=password] {
+    border: 1px solid #a5d8f2;
+    padding: 1px 6px;
+    font-size: 12px;
+    margin-top: 8px;
+    *margin-top: 5px;
+
+    height: 19px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+#colunas-formulario select {
+    border: 1px solid #a5d8f2;
+    padding: 1px 1px 1px 6px;
+    font-size: 12px;
+    margin-top: 8px;
+    *margin-top: 5px;
+
+    height: 22px;
+    width:228px;
+    *height:24px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+#colunas-formulario textarea {
+    border: 1px solid #a5d8f2;
+    padding: 1px 6px;
+    font-size: 12px;
+    margin-top: 8px;
+    *margin-top: 5px;
+
+    height: 110px;
+    width:287px;
+
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#telefone-vagas li {
+    display: inline;
+    float:left;
+    margin-right: 7px;
+}
+
+#coluna-dois{
+    width: 370px;
+    float: left;
+    margin-top: -185px;
+    margin-left: 300px;
+}
